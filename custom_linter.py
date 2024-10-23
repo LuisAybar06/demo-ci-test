@@ -18,7 +18,7 @@ def convert_noteboock_to_scrpit(noteboock_path):
 
 
 
-def check_long_functions(file_content, file_path, max_line=50):
+def check_long_functions(file_content, file_path, max_line=5):
     print(f"checking file: {file_path}")
     errors = 0
     tree = ast.parse(file_content)
