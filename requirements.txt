@@ -9,3 +9,4 @@ radon
 nbformat
 nbconvert
 pytest
+ipython
