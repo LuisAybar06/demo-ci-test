@@ -16,7 +16,7 @@ def display_message(message: str):
 def main():
     data = process_date("example")
     print(data)
-    
+
 
 if __name__ == "__main__":
     main()
