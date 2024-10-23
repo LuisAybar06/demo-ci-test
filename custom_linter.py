@@ -53,7 +53,7 @@ def lint_directory(directory, max_line_lenght):
     total_errors = 0
     for root, _, files in os.walk(directory):
         for file in files:
-            if file.endswitch(".ipynb"):
+            if file.endswith(".ipynb"):
                 file_path = os.path.join(root, file)
                 total_errors += lint_file(file_path, max_line_lenght)
     return total_errors
